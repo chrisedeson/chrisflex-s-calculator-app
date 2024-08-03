@@ -7,16 +7,18 @@ main {
     max-width: 500px;
     background-color: black;
     padding-bottom: 20px;
+    padding-left: 25px;
+
 
 }
 
 input[type=text] {
     width: 100%;
     max-width: 500px;
-    height: 32vh;
+    height: 23vh;
     font-size: 60px;
     text-align: right;
-    padding-top: 20vh;
+    padding-top: 30px;
     padding-right: 25px;
     border: none;
     color: white;
@@ -30,11 +32,16 @@ input[type=text] {
     /* gap: 15px; */
     gap: 5vw;
     padding: 10px;
+    margin-top: -12px;
+
+
 }
 
 .last-row {
     display: grid;
     grid-template-columns: 2.4fr 1fr 1fr;
+    padding: 0;
+    padding-top: 25px;
 }
 
 button {
@@ -68,4 +75,12 @@ button {
     /* width: 165px; */
     width: 46vw;
     max-width: 200px;
+}
+
+#decimal {
+    margin-left: -5px;
+}
+
+#equals-btn {
+    margin-left: -6px;
 }
